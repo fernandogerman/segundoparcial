@@ -9,20 +9,18 @@ and open the template in the editor.
 */
 #cabecera
 {
-    /*aplicando tipo de tamano de letra a la cabecera*/
 font-family: Aharoni;
 font-size: 40px;
 text-align: center;
 }
 #subtitulo {
-    /*aplicando tipo de tamano de letra a la cabecera*/
 font-family: Aharoni;
 font-size: 23px;
 text-align: center;
 }
 ul li{
     list-style: none;
-    background: #E0F2F7;
+    background: #00BFFF;
     display: inline;
     font-size: 20px;
     font-family: Berlin Sans FB;
@@ -45,13 +43,13 @@ ul li{
 #pie{ background: #E0F2F7;
   text-align: center;
   font-family: Berlin Sans FB;
-    font-size: 15px;
+    font-size: 10px;
        padding: 10px;
      border-radius: 8px;
     
 }
 a:hover { 
-    color: #FF0000;
+    color: #00BFFF;
     font-size: 21px;
 
 }
