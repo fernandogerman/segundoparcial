@@ -6,46 +6,52 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Formulario de Contacto</title>
+        <title>Contactanos</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' type='text/css' href='css/estiloparcial.css'>
     </head>
-    <body>
+    <body id="fondo">
+        
         <div>
-            <h1>Contactanos</h1>
-            <form>
+            <h1> Formulario </h1>
+            <form> 
                 <div>
                     <label for="nombre"> Nombre:</label>
                     <input type="text" id="nombre"/>
-                    </div>
-                 <div>
-                    <label for="telefono"> Tel.::</label>
-                    <input type="number" id="telefono"/>
-                    </div>
-                <div>
-                    <label for="email"> E-Mail:</label>
-                    <input type="email" id="email"/>
-                    </div>
-               
-                <div>
-                    <label for="asunto"> Que necesitas?:</label>
-                    <select id="asunto" name="asunto">
-                        <option value ="" selected="selected">--Ver Opciones--
-                        <option value="comentar">Quiero PC Kaby Lake</option>
-                        <option value="info">Quiero PC Sandy Bridge</option>
-                        <option value="entrega">Quiero PC AMD</option>
-                        <option value="otro"> Otro</option>
-                    </select>
-                    </div>
-                <div>
-                    <label for="msg"> Mensaje</label>
-                    <textarea id="msg" cols="15" rows="5"></textarea>
                 </div>
                 
-                <div class="boton">
-                    <button type="submit"> Enviar mensaje</button>
+                <div>
+                    <label for="Telefono"> Telefono:</label>
+                    <input type="text" id="Telefono"/>
                 </div>
-        
-        
+                
+                  <div>
+                    <label for="email"> E-mail:</label>
+                    <input type="email" id="email"/>
+                </div>
+                
+                
+                 <div>
+                    <label for="asunto"> En que podemos ayudarle:</label>
+                    <select id="asunto" name="asunto">
+                        <option value="" selected="selected">--seleccione--</option>
+                        <option value="comentar">Quiero una Mac</option>
+                        <option value="info">Quiero una PC</option>
+                        <option value="entrega"> Quiero una Consola</option>
+                        <option value="otro"> Pregunta General</option>
+                    </select>
+                </div>     
+                
+                <div>
+                    <label for="msg"> Nota</label>
+                    <textarea id="msg" cols="14" rows="8"></textarea>
+                </div>
+                <div class="boton">
+                    <button type="submit"> Enviar </button>
+                    </div>
+            </form>
+        </div>
     </body>
 </html>
+
